@@ -51,6 +51,12 @@ than casual riders.
 - 202402-divvy-tripdata.csv
 - 202403-divvy-tripdata.csv
 
+# Data Cleaning
+- Open PowerBI
+- Get data > From folder
+- Locate and select the folder from your laptop
+- 
+
 # Data Manipulation
 - converted started at and ended at to datetime
 - getting the start and end time in date (ymd)
@@ -61,3 +67,13 @@ than casual riders.
 - getting days of the week from the start and end date
 -  removed unused columns such as start and end station name, start and end station id, start and end latitude and start and end longitude as instructed.
 -  get minimum and maximum date of rides
+
+# Recommendation
+To accomplish the objective of converting casual riders into annual members, you can consider the following recommendations:
+- Develop targeted marketing campaigns aimed at casual riders, highlighting the benefits of becoming annual members.
+- Offer discounts or incentives to encourage casual riders to sign up for annual memberships. This could include discounted membership fees, rewards for signing up.
+- Encourage annual members to share their positive experiences with others, creating social proof and word-of-mouth referrals.
+- Increase awareness through targeted educational campaigns and social media outreach.
+
+By putting these suggestions into action, you can successfully motivate occasional riders to become annual members, thereby increasing 
+
