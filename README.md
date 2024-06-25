@@ -1,7 +1,6 @@
 # Cyclistic Bike_Share Analysis
 
-# Tool Used:
-PowerBI
+# Tool Used:PowerBI
 
 ### Problem Statement: How does a bike-share navigate speedy success?
 - Disribution by member types.
@@ -54,8 +53,35 @@ than casual riders.
 # Data Cleaning
 - Open PowerBI
 - Get data > From folder
-- Locate and select the folder from your laptop
-- 
+- Locate and select the folder from pc
+- Select transform data; this will open power query editor.
+- Select content column, right click and select remove other columns.
+- Click on double arrow beside content[combile files] to preview other headers
+- To preview the quality of the data, go to view, select to check column quality , distribution and profile.
+- After the preview, click to uncheck the column quality, distribution and profile.
+- Select started at column and duplicate it twice
+- Select ended at column and duplicate twice
+- Rename the started at copy to startdate, rightclick and change type to date.
+- Rename the started at copy1 to starthour, rightclick, select transform to hour.
+- Rename the ended at copy to enddate, rightclick and change type to date.
+- Rename the ended at copy1 to endhour, rightclick, select transform to hour.
+- Added a custom column to get the ride in minutes. to do this;
+- Go to add column
+- choose custom colum and rename it to ride in minutes
+- Where you see equal sign complete it by writing = endedat - started at
+- Transform rideinminute to minutes; right click on right in minute column, select tranform and choose minutes.
+- Select to filter start station name column, uncheck select all and select blanks, lod complete,go to tranform and select count rows.There are 874450 blanks station.
+- clear the count row filter
+- Select to filter ride in minute column, select number filter, lessthan/=0, go to transform and count row which sum up to 148807
+- Add a custom custom name is abs_trip where abs mean absolute trip = Number.Abs([rideinminutes])
+- Rightclick ride in minutes column and delete it
+- Rename  abs_trip to rideinminutes.
+- Add a custom column to get month from date and weekday with the formulars = Date.MonthName([startdate]) and Date.DayOfWeekName([startdate])
+- Rename member-casual to rider type
+- Rename rideable type to bike type
+- Remove unused columns such as start and end station name, start and end station id, start and end latitude and start and end longitude as instructed.
+- Select close and apply.
+  
 
 # Data Manipulation
 - converted started at and ended at to datetime
@@ -63,10 +89,10 @@ than casual riders.
 - getting the start time and end time in hour
 - getting the ride length in hour
 - getting the ride length in minutes
-- remove rows that have trip equal to zero and less than 0
+- remove rows that have trip equal to zero and less than 0 
 - getting days of the week from the start and end date
--  removed unused columns such as start and end station name, start and end station id, start and end latitude and start and end longitude as instructed.
--  get minimum and maximum date of rides
+- removed unused columns such as start and end station name, start and end station id, start and end latitude and start and end longitude as instructed.
+- 
 
 # Recommendation
 To accomplish the objective of converting casual riders into annual members, you can consider the following recommendations:
