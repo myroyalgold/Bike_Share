@@ -1,18 +1,5 @@
 # Cyclistic Bike_Share Analysis
 
-# Tool Used:PowerBI
-
-### Problem Statement: How does a bike-share navigate speedy success?
-- Disribution by member types.
-- Bike type used by different riders.
-- Total Rides by Rider Type.
-- Total Rides  by Bike Type.
-- Rider distribution by Month and Rider Type
-- Rider distribution by Weekday and Rider Type
-- Rider distribution by start time and Rider Type.
-- Total Number of rides.
-- Total rides by bike type and Rider type.
-
 ### Introduction 
 I'm tasked with analyzing a public dataset for Cyclistic, an imaginary bike-share company located in Chicago. Throughout this case study, I'll utilize the PowerBI  for data analysis and visualization.
 
@@ -33,6 +20,21 @@ than casual riders.
 <br> Business Focus: The company's future prosperity hinges on maximizing the number of annual memberships.
 <br> Marketing Goal: The marketing team seeks to discern the varying usage patterns between casual riders and annual members of Cyclistic bikes in order to craft a fresh marketing strategy. The objective is to convert casual riders into annual members.
 
+### Tool Used:PowerBI
+
+### Problem Statement: How does a bike-share navigate speedy success?
+- Disribution by member types.
+- Bike type used by different riders.
+- Total Rides by Rider Type.
+- Total Rides  by Bike Type.
+- Rider distribution by Month and Rider Type
+- Rider distribution by Weekday and Rider Type
+- Rider distribution by start time and Rider Type.
+- Total Number of rides.
+- Total rides by bike type and Rider type.
+
+
+
 ## Prepare
 ### Data Sources: Link to Cyclistic Data:https://divvy-tripdata.s3.amazonaws.com/index.html
 
@@ -50,7 +52,11 @@ than casual riders.
 - 202402-divvy-tripdata.csv
 - 202403-divvy-tripdata.csv
 
-# Data Cleaning
+### Steps Followed after Downloading the Dataset into my Computer:
+I downloaded dataset covering bike rides between April 2023 to March 2024 for the purpose of this analysis.
+<br> The data is in CSV format.
+
+### Data Cleaning
 - Open PowerBI
 - Get data > From folder
 - Locate and select the folder from pc
@@ -83,7 +89,7 @@ than casual riders.
 - Select close and apply.
   
 
-# Data Manipulation
+### Data Manipulation
 - converted started at and ended at to datetime
 - getting the start and end time in date (ymd)
 - getting the start time and end time in hour
@@ -94,7 +100,7 @@ than casual riders.
 - removed unused columns such as start and end station name, start and end station id, start and end latitude and start and end longitude as instructed.
 - 
 
-# Recommendation
+### Recommendation
 To accomplish the objective of converting casual riders into annual members, you can consider the following recommendations:
 - Develop targeted marketing campaigns aimed at casual riders, highlighting the benefits of becoming annual members.
 - Offer discounts or incentives to encourage casual riders to sign up for annual memberships. This could include discounted membership fees, rewards for signing up.
