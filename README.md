@@ -98,7 +98,10 @@ I downloaded dataset covering bike rides between April 2023 to March 2024 for th
 - remove rows that have trip equal to zero and less than 0 
 - getting days of the week from the start and end date
 - removed unused columns such as start and end station name, start and end station id, start and end latitude and start and end longitude as instructed.
-- 
+
+### Insights
+![report](https://github.com/user-attachments/assets/f54d9cd0-b099-47a0-b503-9aec877db3a3)
+
 
 ### Recommendation
 To accomplish the objective of converting casual riders into annual members, you can consider the following recommendations:
